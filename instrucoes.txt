@@ -1,0 +1,15 @@
+Intruções:
+
+Meu projeto foi feito utilizando sass e gulp. Porém ele já funciona somente abrindo o index.
+
+
+Esses fim de semana foi bem corrido para mim e fiquei sem tempo o suficiente para usar as melhores funcionalidades. Sobre o React e Webpack eu fiz uso bem simples, e não consegui ter tempo para mexer totalmente no responsivo, deixando o site completamente fluido para qualquer dispositivo.
+
+
+De todo modo, obrigado pela oportunidade.
+
+
+
+Vinícius Arruda.
+(11)95492-8333
+viniarruda.souza@gmail.com

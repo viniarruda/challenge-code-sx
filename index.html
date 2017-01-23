@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>Teste Front-End Jr.</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.25/browser.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react-with-addons.js"></script>
+	<link rel="stylesheet" type="text/css" href="src/sass/style.css"/>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<section class="statistic">
+			<div class="avatar">
+				<div id="react">
+					<img src="src/img/avatar.png">
+					<h1>John xpto</h1>
+					<h2>Frontend Developer</h2>
+				</div>
+				
+			</div>
+			<script type="text/babel">
+				
+				class Print01 extends React.Component{
+
+					render(){
+						var name = "John xpto";
+						var front = "Frontend Developer"
+						return (
+							<div>
+								<img src="src/img/avatar.png">
+								<h1>{name}</h1>
+								<h2>{front}</h2>
+							</div>
+						);
+					}
+				}
+
+				React.render(<Print01/>, document.getElementById('react'));
+			</script>
+			<div class="infos">
+				<div class="title">
+					<i class="material-icons">person</i>
+					<h1>Profile</h1>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.</p>
+				</div>	
+			</div>
+			<div class="infos">
+				<div class="title">
+					<i class="material-icons">filter_vintage</i>
+					<h1>Objective</h1>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.</p>
+				</div>
+			</div>
+			<div class="infos">
+				<div class="title">
+					<i class="material-icons">star</i>
+					<h1>Personal Skill</h1>
+					<ul id="skill">
+						<li><span class="bar management"></span><h3>Management</h3></li>
+						<li><span class="bar teamwork"></span><h3>teamWork</h3></li>
+						<li><span class="bar creative"></span><h3>creative</h3></li>
+						<li><span class="bar comunication"></span><h3>comunication</h3></li>
+					</ul>
+				</div>	
+			</div>
+			<div class="infos">
+				<div class="title">
+					<i class="material-icons">group</i><h1>Contact me</h1>
+					<ul class="contact">
+						<li><i class="material-icons">place</i><p>Avenue Xpto, 1234</p></li>
+						<li><i class="material-icons">local_phone</i><p>11 987654321</p></li>
+						<li><i class="material-icons">email</i><p>frontend@webxpto.com</p></li>
+						<li><i class="material-icons">public</i><p>http://webxpto.com</p></li>
+					</ul>				
+				</div>
+			</div>
+		</section>
+		<section class="legend">
+			<div class="education">
+				<i class="material-icons">school</i>
+				<h1>Education</h1>
+				<div class="inf_educ">
+					<ul>
+						<li>
+							<span class="date">November </br>2007</span>	
+						</li>
+						<li>
+							<div class="right_block">
+								<h1>Master of Computer Application</h1>
+								<h2>Simpson University, London</h2>
+								<h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="inf_educ">
+					<ul>
+						<li>
+							<span class="date">November </br>2007</span>	
+						</li>
+						<li>
+							<div class="right_block">
+								<h1>Master of Computer Application</h1>
+								<h2>Simpson University, London</h2>
+								<h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="inf_educ">
+					<ul>
+						<li>
+							<span class="date">November </br>2007</span>	
+						</li>
+						<li>
+							<div class="right_block">
+								<h1>Master of Computer Application</h1>
+								<h2>Simpson University, London</h2>
+								<h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="experience">
+				<i class="material-icons">import_contacts</i>
+				<h1>Experience</h1>
+				<div class="inf_educ">
+					<ul>
+						<li>
+							<span class="date">November </br>2007</span>	
+						</li>
+						<li>
+							<div class="right_block">
+								<h1>Master of Computer Application</h1>
+								<h2>Simpson University, London</h2>
+								<h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="inf_educ">
+					<ul>
+						<li>
+							<span class="date">November </br>2007</span>	
+						</li>
+						<li>
+							<div class="right_block">
+								<h1>Master of Computer Application</h1>
+								<h2>Simpson University, London</h2>
+								<h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="professional-skill">
+				<i class="material-icons">poll</i>
+				<h1>Professional Skill</h1>
+				<ul id="skill">
+					<li><span class="bar photoshop"></span><h3>Photoshop</h3></li>
+					<li><span class="bar illustrator"></span><h3>Illustrator</h3></li>
+					<li><span class="bar indesign"></span><h3>In Design</h3></li>
+				</ul>
+			</div>
+			<div class="award">
+				<i class="material-icons">done</i>
+				<h1>Award</h1>
+				<div class="inf_educ">
+					<ul>
+						<li>
+							<span class="date">November </br>2007</span>	
+						</li>
+						<li>
+							<div class="right_block">
+								<h1>Master of Computer Application</h1>
+								<h2>Simpson University, London</h2>
+								<h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</div>	
+</body>
+</html>
